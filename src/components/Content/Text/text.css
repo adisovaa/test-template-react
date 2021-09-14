@@ -1,0 +1,39 @@
+.text_wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.photo_author h4 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.est{
+    margin-top: 74px;
+}
+
+.main_text h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 46px;
+}
+
+.main_text p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-top: 42px;
+}
+
+.bannerText {
+    visibility: hidden;
+}
+@media screen and (max-width: 900px) {
+    .text_wrapper {
+        display: none;
+    }
+    .bannerText {
+        visibility: inherit;
+    }
+}

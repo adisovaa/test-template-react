@@ -1,0 +1,74 @@
+.container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    position: absolute;
+    margin-left: 50px;
+}
+.logo{
+    display: flex;
+    cursor: pointer;
+}
+.logo h1{
+    margin: 16px 14px 0 13px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.logo h1::after{
+    content: " ";
+    background: #fff;
+    width: 1px;
+    height: 25px;
+    margin-left: 8px;
+    float: right;
+}
+.logo h3{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 3.9;
+}
+.logo img{
+    margin: 23px 0;
+}
+.burger{
+    display: none;
+}
+.menu-burger{
+    display: flex;
+}
+.navBar{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+.navBar p{
+    margin:0 28px 0 0;
+
+    font-size: 16px;
+    font-weight: 600;
+}
+.navBar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.auth-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+}

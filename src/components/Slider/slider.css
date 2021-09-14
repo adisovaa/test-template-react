@@ -1,0 +1,77 @@
+.card{
+    margin-top: 60px;
+}
+.cardContainer{
+    margin: 0 auto;
+    padding-bottom: 80px;
+    max-width: 1200px;
+}
+.cardTitle h1{
+    padding: 60px 0 0 30px;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 120%;
+}
+.itemCard{
+    width: 87%;
+    margin: 35px 30px;
+    box-shadow: 0 8px 17px rgba(0, 0, 0, 0.25);
+}
+.image{
+    width: 100%;
+}
+.itemTitleCard{
+    padding: 15px 20px;
+}
+.itemTitleCard h1{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 2px;
+}
+.cardTitle h3 {
+    visibility: hidden;
+}
+.itemParameters{
+    margin-top: 23px;
+
+    color: #334059;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+.textParameters p {
+    margin: 14px 0 14px 3px;
+    line-height: 1.4;
+}
+.itemTextTitle p{
+    font-weight: 800;
+    font-size: 21px;
+}
+.itemMore p {
+    margin-left: 63%;
+    font-size: 16px;
+    font-weight: 600;
+}
+.textParameters span{
+    margin-left: 5px;
+    text-decoration: underline;
+}
+.icon::before{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+}
+.slick-next::before {
+    width: 48px;
+    height: 17px;
+    padding: 8px 11px 8px 13px;
+    font-size: 15px;
+    content: "\f054";
+    color: #fff;
+    opacity: 1;
+    background: #909EBB;
+    border-radius: 50px;
+}

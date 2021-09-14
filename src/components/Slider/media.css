@@ -1,0 +1,41 @@
+@media screen and (max-width: 650px){
+    .itemCard{
+        width: 87%;
+    }
+    .itemTitleCard h1 {
+        font-size: 14px;
+    }
+    .itemParameters {
+        display: flex;
+        font-size: 13px;
+    }
+    .slick-prev, .slick-next {
+        display: none !important;
+    }
+    .cardTitle h1 {
+        visibility: hidden;
+        padding: inherit;
+    }
+    .cardTitle h3 {
+        visibility: inherit;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 27px;
+    }
+    .itemTitleCard h1{
+        font-size: 10px;
+        font-weight: 300;
+        margin: 0 2px;
+    }
+    .itemParameters{
+        font-size: 16px;
+    }
+    .textParameters p {
+        font-size: 10px;
+        margin-left: 1px;
+    }
+    .itemText p{
+        font-size: 11px;
+    }
+}
